@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "email": "johndoe@test.com",
+      "password": "$2a$10$tjtO6IiDaPo.YR/k0u9k1uhcMTtoY/tCSyeYyoZING3F6D6UvsW36",
+      "id": 1,
+      "userType": "1",
+      "editPermission": true
+    },
+    {
+      "email": "test1@gmail.com",
+      "password": "$2a$10$55C2waovaSnd69Je4XY9tObg30RNpKhbXio6j1BlAuBAmLwlP/bue",
+      "name": "test1",
+      "userType": "2",
+      "editPermission": true,
+      "id": 2
+    }
+  ],
+  "books": [
+    {
+      "title": "text book",
+      "author": "vishal",
+      "id": 1,
+      "sections": [
+        {
+          "id": "1.1",
+          "title": "section 1.1",
+          "description": "",
+          "sections": [
+            {
+              "id": "1.1.1",
+              "title": "section 1.1.1",
+              "description": "",
+              "sections": [
+                {
+                  "id": "1.1.1.1",
+                  "title": "section1.1.1.1-1",
+                  "description": "",
+                  "sections": [
+                    {
+                      "id": "1.1.1.1.1",
+                      "title": "section grandchild",
+                      "description": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "1.1.2",
+              "title": "section1.1.2",
+              "description": ""
+            },
+            {
+              "id": "1.1.3",
+              "title": "section 1-101",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "new w section",
+          "description": "test"
+        }
+      ]
+    },
+    {
+      "title": "new book",
+      "author": "vishal",
+      "id": 2
+    },
+    {
+      "title": "new book 1",
+      "author": "vishal",
+      "id": 3,
+      "description": "new test section",
+      "sections": [
+        {
+          "id": "3.1",
+          "title": "section 1.1",
+          "description": "test",
+          "sections": [
+            {
+              "id": "3.1.1",
+              "title": "section 1.2",
+              "description": "",
+              "sections": [
+                {
+                  "id": "3.1.1.1",
+                  "title": "section 1.2.1 update",
+                  "description": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "introuduction",
+          "description": "this is a brief intro of this book"
+        }
+      ]
+    }
+  ]
+}
